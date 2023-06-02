@@ -1,0 +1,48 @@
+﻿
+
+body
+{
+	margin:0px;
+	height: 100%;
+	color:white;
+	text-align:center;
+	font-family:fantasy;
+}
+h1{
+	font-size:45px;
+}
+.screen {
+  background-image:url("BOOTH.jpg");
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+
+.shadow{
+	box-shadow: 5px 5px black;
+}
+.leftbox{
+padding: 2%,2%;
+margin-top:3px;
+margin-left:18%;
+width:40%;
+float:left;
+height:690px;
+border-width: 6x;
+border-style:solid;
+border-color:white;
+}
+.rightbox{
+padding:2%, 2%;
+margin-top:3px;
+margin-left:68%;
+margin-right:15%;
+width:17%;
+border-width: 6x;
+border-style:solid;
+border-color:white;
+height:690px;
+}
