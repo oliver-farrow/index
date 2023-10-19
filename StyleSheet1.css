@@ -4,45 +4,60 @@ body
 {
 	margin:0px;
 	height: 100%;
-	color:white;
+	color:black;
 	text-align:center;
-	font-family:fantasy;
+	/*font-family*/
 }
 h1{
 	font-size:45px;
 }
 .screen {
-  background-image:url("BOOTH.jpg");
   position:absolute;
   top:0px;
   right:0px;
   bottom:0px;
   left:0px;
 }
-
-
-.shadow{
-	box-shadow: 5px 5px black;
+hr{
+	border:6px solid;
 }
+
+/*Two Boxes to sort info out*/
 .leftbox{
-padding: 2%,2%;
+padding:2%;
 margin-top:3px;
-margin-left:18%;
+margin-left:9%;
 width:40%;
 float:left;
-height:690px;
-border-width: 6x;
+border-width:6px;
 border-style:solid;
-border-color:white;
+border-color:black;
+	box-shadow: 5px 5px grey;
 }
 .rightbox{
-padding:2%, 2%;
+padding:2%;
 margin-top:3px;
-margin-left:68%;
-margin-right:15%;
-width:17%;
-border-width: 6x;
+margin-left:59%;
+margin-right:9%;
+width:32%;
+border-width:6px;
 border-style:solid;
-border-color:white;
-height:690px;
+border-color:black;
+	box-shadow: 5px 5px grey;
+}
+/*End of Boxes*/
+/*P attributes for in boxes to make headings*/
+p.boxheader{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	font-align:center;
+	font-size:38px;
+}
+p.box{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	font-align:center;
+	font-size:20px;
 }
